@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.photo > img{
+    width: 60px;
+    margin: 10px 20px;
+
+}
+.headman{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+.headman > ul > li > a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    border-right: 1px solid rgb(8, 10, 5);
+    padding: 20px 20px;
+    transition: 1s;
+    
+    
+}
+.headman > ul > li:first-child > a{
+    border-left: 1px solid black;
+
+}
+.headman > ul > li:hover > a{
+    background-color: blue;
+}
+.headman > ul{
+    display: flex;
+    padding: -1000px;
+}
+
+.headman > ul > li{
+    list-style: none;
+    padding: 0px 25px;
+    margin-left: -50px;
+    
+}
+
+.drop{
+    background-color: chocolate;
+    list-style: none;
+    position: absolute;
+    margin-top: 22px;
+    width: 82px;
+    opacity: 0;
+    transition: 1s;
+    
+    
+}
+.drop > li > a{
+    padding-top: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.drop > li{
+    text-align: center;
+    padding: 10px 0px;
+    border-bottom: 1px solid white;
+
+    
+    
+}
+.drop > li:hover {
+    background-color: cadetblue;
+}
+
+.drop > li:first-child{
+        border-top: 1px solid white;
+}
+
+.headman > ul > li:hover ul{
+    opacity: 1;
+}
